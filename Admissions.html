@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      form {
+        height: 1252px;
+        width: 500px;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      button {
+        height: 30px;
+        width: 468px;
+        background-color: rgb(25, 252, 25);
+        font-size: 20px;
+        border: none;
+      }
+    </style>
+    <title>Admissions</title>
+  </head>
+  <body>
+    <script>
+      alert("You are in admission section now. Do you want to apply?");
+    </script>
+    <h1>This is Admissions section</h1>
+    <h1 align="center">
+      <a href="index.html" id="pk12">
+        <h6>Go to Home</h6>
+      </a>
+    </h1>
+    <h1 align="center">Registeration Form</h1>
+    <h4 align="center">Please fill out this Registeration form to apply</h4>
+    <form style="background-color: rgb(86, 136, 138)">
+      <fieldset>
+        <legend align="center"><h2>Apply Registeration Form</h2></legend>
+        <h2>Personal Information</h2>
+
+        <label for="firstname">First Name: &nbsp;</label>
+        <input
+          type="text"
+          placeholder="Enter your first name"
+          required
+          minlength="4"
+          maxlength="15"
+          id="firstname"
+        />
+        <br />
+        <br />
+        <label for="lastname"> Last Name: &nbsp;</label>
+        <input
+          type="text"
+          placeholder="Enter your last name"
+          required
+          min="4"
+          maxlength="10"
+          id="lastname"
+        />
+        <br /><br />
+        <label for="phone">Phone Number: &nbsp;</label>
+        <input
+          type="number"
+          placeholder="Enter your phone number"
+          id="phone"
+        /><br /><br />
+        <label for="email">Email: &nbsp;</label>
+        <input type="email" placeholder="Enter your email address" id="email" />
+        <br /><br />
+        <label for="password">Password: &nbsp;</label>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+        />
+        <br /><br />
+        <label for="readonly">Read Only: &nbsp;</label>
+        <input
+          type="password"
+          placeholder="This field is readable only"
+          readonly
+          id="readonly"
+        />
+        <br /><br /><br />
+        <div>
+          <h2>Gender</h2>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label><br />
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label><br />
+          <input type="radio" name="gender" id="common" />
+          <label for="common">Common</label><br />
+          <input type="radio" name="gender" id="neutor" />
+          <label for="neutor">Neutor</label><br />
+          <input type="radio" name="gender" id="other" />
+          <label for="other">Other</label>
+        </div>
+        <br /><br />
+        <div>
+          <h2>Course</h2>
+          <input type="checkbox" id="web" />
+          <label for="web">Web Development</label> <br />
+          <input type="checkbox" id="app" />
+          <label for="app">App Development</label> <br />
+          <input type="checkbox" id="amazon" />
+          <label for="amazon">Amazon</label> <br />
+          <input type="checkbox" id="tradding" />
+          <label for="tradding">Tradding</label> <br />
+          <input type="checkbox" id="Java" />
+          <label for="Java">Java</label><br />
+          <input type="checkbox" id="PHP" />
+          <label for="PHP">PHP</label><br />
+        </div>
+        <br /><br />
+        <div>
+          <h2>Province</h2>
+          <select>
+            <option></option>
+            <option>KPK</option>
+            <option>Punjab</option>
+            <option>Sindh</option>
+            <option>Baluchistan</option>
+            <option>Gilgit</option>
+          </select>
+        </div>
+        <br />
+        <label for="">How many brothers do you have. <br /></label>
+        <input type="number" min="2" max="5" />
+        <br /><br />
+        <label for="dob">Date of Birth: &nbsp;</label>
+        <input type="date" id="dob" />
+        <br /><br /><br />
+        <label>Message: &nbsp;</label>
+        <textarea placeholder="Enter your suggestions here"></textarea>
+        <br /><br /><br />
+        Add your picture here: &nbsp;
+        <input type="file" />
+        <br /><br /><br />
+        <input type="reset" />
+        <br /><br />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

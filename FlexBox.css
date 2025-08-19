@@ -1,0 +1,153 @@
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(5, 1fr);
+  /* flex-direction: column;
+  flex-direction: row-reverse;
+  flex-grow: 2;
+  align-items: flex-end;
+  align-self: flex-start; */
+}
+.first {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.second {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: rgb(238, 0, 40);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.third {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: rgb(41, 241, 1);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.fourth {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: rgb(24, 0, 238);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.fifth {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(255, 6, 151);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.sixth {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: rgb(1, 167, 233);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.seventh {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: rgb(30, 51, 32);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.eighth {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: rgb(194, 247, 2);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.nineth {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: rgb(223, 108, 0);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.tenth {
+  grid-column: 1/4;
+  grid-row: 4/6;
+  background-color: rgb(183, 3, 228);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.eleventhi {
+  grid-column: 1/4;
+  grid-row: 6/6;
+  background-color: rgb(238, 203, 7);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.twelth {
+  grid-column: 1/4;
+  grid-row: 7/7;
+  background-color: rgb(0, 179, 80);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.thirteen {
+  grid-column: 1/4;
+  grid-row: 8/8;
+  background-color: rgb(245, 12, 101);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+p {
+  background-color: coral;
+  border: 2px solid blue;
+}
+.fourteen {
+  height: 868%;
+  width: 200%;
+  /* display: grid; */
+  /* grid-auto-rows: 220px; */
+  background-color: #baa;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.nasir {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 7px;
+  grid-auto-rows: 220px;
+  /* background-color: #baa;
+  color: white;
+  text-align: center;
+  font-size: 30px; */
+}
+p {
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  font-size: 20px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+#mashal {
+  height: 130px;
+  width: 125px;
+  border-radius: 484px;
+}
